@@ -49,7 +49,7 @@ menu:
   main:
     - identifier: Aktuelles
       name: Aktuelles
-      url: /news/
+      url: /aktuelles/
       weight: 10
     - identifier: Philosophie
       name: Philosophie
