@@ -6,7 +6,7 @@
         {{- else }}
         <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
         {{- end }}
-        {{- print " · "}}
+        {{- print " | "}}
     {{- end }}
 
     {{- with site.Params.footer.text }}
@@ -15,7 +15,7 @@
     {{- end }}
 
     <span>
-	    <a href="/zlp/impressum/">Impressum</a> <a href="/zlp/datenschutz/">Datenschutz</a>
+	    <a href="/zlp/impressum/">Impressum</a> | <a href="/zlp/datenschutz/">Datenschutz</a>
     </span>
 </footer>
 {{- end }}
