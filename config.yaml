@@ -1,0 +1,69 @@
+baseURL: https://zl-physio.de/
+languageCode: de-de
+title: Zajac & Leroy Physiotherapie
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["xxxxx"]
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+markup:
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 1
+
+DisableHugoGeneratorInject: true
+
+params:
+  env: production
+  title: ZL-Physio
+  keywords: [Physiotherapie, Physio, Zajac, Leroy, ZL-Physio]
+  DateFormat: "2. January 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  # ShowTo: true # enables ToC on all pages by default
+  label.icon: "logo.png"
+
+  assets:
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+    #    safari_pinned_tab: "<link / absolute url>"
+
+  cover:
+    linkFullImages: true
+    #  ShowBreadCrumbs: true
+
+menu:
+  main:
+    - identifier: Aktuelles
+      name: Aktuelles
+      url: /news/
+      weight: 10
+    - identifier: Philosophie
+      name: Philosophie
+      url: /philosophie/
+      weight: 20
+    - identifier: Leistungen
+      name: Leistungen
+      url: /leistungen/
+      weight: 30
+    - identifier: Team
+      name: Team
+      url: /team/
+      weight: 40
+    - identifier: Kontakt
+      name: Kontakt & Öffnungszeiten
+      url: /kontakt/
+      weight: 50
