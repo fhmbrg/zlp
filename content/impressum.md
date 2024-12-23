@@ -3,8 +3,6 @@ title: 'Impressum'
 draft: false
 ---
 
-# Impressum
-
 Zajac & Leroy Physio\
 Mühlenstraße 2e\
 52382 Niederzier
