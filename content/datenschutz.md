@@ -32,8 +32,6 @@ Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit
 
 Wir hosten die Inhalte unserer Website bei folgendem Anbieter:
 
-Netcup
-
 ### Netcup
 
 Anbieter ist die Netcup GmbH, Daimlerstraße 25, 76185 Karlsruhe (nachfolgend „Netcup“). Wenn Sie unsere Website besuchen, erfasst Netcup verschiedene Logfiles inklusive Ihrer IP- Adressen.
